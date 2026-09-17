@@ -54,5 +54,6 @@ class Vehicle:
                 - Prints:
                 - str: "Car is refueling"
     """
-        
+    def drive():
+        print("Car is moving")    
 
