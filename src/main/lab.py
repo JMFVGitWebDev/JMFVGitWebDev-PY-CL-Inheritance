@@ -64,7 +64,7 @@ class Car(Vehicle):
         self.year = year
         self.fuel_type
 
-    def drive(self):
+    def drive(self, fuel_type):
         print("Car is moving")    
 
     def refuel(self):
