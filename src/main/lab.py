@@ -56,7 +56,7 @@ class Vehicle:
                 - Prints:
                 - str: "Car is refueling"
     """
-class Car:
+class Car(Vehicle):
 
     def __init__(self, make, model, year, fuel_type):
         self.make = make
