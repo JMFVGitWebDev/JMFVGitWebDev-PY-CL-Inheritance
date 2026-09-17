@@ -1,5 +1,5 @@
 class Vehicle:
-    def __init__(self, make, model, year):
+    def __init__(self, make, model, year, fuel_type):
         """
         Initialize a Vehicle object.
 
@@ -11,6 +11,7 @@ class Vehicle:
         self.make = make
         self.model = model
         self.year = year
+        self.fuel_type = fuel_type
 
     def display_info(self):
         """
