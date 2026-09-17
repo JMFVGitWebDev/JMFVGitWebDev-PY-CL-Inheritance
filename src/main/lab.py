@@ -30,11 +30,7 @@ class Vehicle:
         """
         print("Engine started")
 
-    def drive(self):
-        print("Car is moving")    
-
-    def refuel(self):
-        print("Car is refueling")
+   
 
     # To do: Create a Python class named Car that inherits from the Vehicle class.
     """
@@ -59,4 +55,8 @@ class Vehicle:
                 - Prints:
                 - str: "Car is refueling"
     """
-    
+    def drive(self):
+        print("Car is moving")    
+
+    def refuel(self):
+        print("Car is refueling")
