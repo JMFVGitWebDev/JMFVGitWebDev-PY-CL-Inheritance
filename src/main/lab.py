@@ -57,3 +57,5 @@ class Vehicle:
     def drive():
         print("Car is moving")    
 
+    def refuel():
+        print("Car is refueling")
